@@ -1,0 +1,17 @@
+inherit_from: https://raw.githubusercontent.com/karn18/pirate_ruby/main/.rubocop.yml
+# inherit_gem:
+#   rubocop-shopify: rubocop.yml
+AllCops:
+  NewCops: enable
+Gemspec/RequireMFA: # new in 1.23
+  Enabled: true
+Lint/UselessRuby2Keywords: # new in 1.23
+  Enabled: true
+Style/FrozenStringLiteralComment:
+  EnforcedStyle: never
+Style/OpenStructUse: # new in 1.23
+  Enabled: true
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+Style/TrailingCommaInHashLiteral:
+  EnforcedStyleForMultiline: no_comma
