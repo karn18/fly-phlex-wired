@@ -21,7 +21,6 @@ default: &default
   # https://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   hostname: <%= ENV.fetch("APP_DATABASE_HOST") %>
-  database: <%= ENV.fetch("APP_DATABASE_NAME") %>
   username: <%= ENV.fetch("APP_DATABASE_USERNAME") %>
   password: <%= ENV.fetch("APP_DATABASE_PASSWORD") %>
 
@@ -85,3 +84,4 @@ test:
 #
 production:
   <<: *default
+  database: <%= ENV.fetch("APP_DATABASE_NAME") %>

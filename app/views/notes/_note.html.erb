@@ -1,0 +1,14 @@
+<div id="<%= dom_id note %>" class="rounded-lg border p-4 w-full flex flex-col gap-y-2">
+  <div class="flex flex-col">
+    <h4 class="text-xs font-bold text-gray-400">Message</h4>
+    <div class="text-lg"><%= note.message %></div>
+  </div>
+  <div class="flex flex-col">
+    <h4 class="text-xs font-bold text-gray-400">From</h4>
+    <div class="text-lg"><%= note.from_user %></div>
+  </div>
+  <div class="flex flex-col">
+    <h4 class="text-xs font-bold text-gray-400">When</h4>
+    <div class="text-lg"><%= time_ago_in_words note.created_at %></div>
+  </div>
+</div>

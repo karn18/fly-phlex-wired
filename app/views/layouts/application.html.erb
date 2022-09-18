@@ -7,10 +7,12 @@
     <%= csp_meta_tag %>
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
+    <script async defer data-domain="fly-phlex-wired.fly.dev" src="https://analytics.karn.work/js/plausible.js"></script>
   </head>
 
   <body>
-    <main class="container mx-auto mt-28 px-5 flex flex-col">
+    <%= render NavbarComponent.new %>
+    <main class="container mx-auto py-12 px-5 flex flex-col relative">
       <%= yield %>
     </main>
   </body>
