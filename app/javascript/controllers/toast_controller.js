@@ -1,15 +1,15 @@
-import { Controller } from "@hotwired/stimulus"
+import { Controller } from '@hotwired/stimulus'
 
 export default class extends Controller {
   static values = {
     delay: Number, default: 0
   }
-  
+
   connect () {
     this.element.classList.add('hidden')
     setTimeout(() => {
       this.show()
-    }, this.delayValue);
+    }, this.delayValue)
   }
 
   show () {
