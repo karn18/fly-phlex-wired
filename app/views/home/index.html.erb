@@ -3,7 +3,7 @@
 <%= turbo_frame_tag "notes", class: "flex mx-auto gap-x-3 w-full md:w-2/3 lg:w-2/3" do %>
   <% if @notes.size == 0 %>
     <div class="rounded-lg bg-indigo-300 w-full md:w-1/2 lg:w-1/2 mx-auto">
-      <%= image_tag "no_data.jpg", decoding: "async", loading: "lazy" %>
+      <%= image_tag "no_data.webp", decoding: "async", loading: "lazy" %>
     </div>
   <% else %>
     <% @notes.each do |note| %>

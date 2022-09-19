@@ -1,13 +1,13 @@
 # These are supported funding model platforms
 
-github: # Replace with up to 4 GitHub Sponsors-enabled usernames e.g., [user1, user2]
+github: [karn18] # Replace with up to 4 GitHub Sponsors-enabled usernames e.g., [user1, user2]
 patreon: # Replace with a single Patreon username
 open_collective: # Replace with a single Open Collective username
-ko_fi: karn18
+# ko_fi: karn18
 tidelift: # Replace with a single Tidelift platform-name/package-name e.g., npm/babel
 community_bridge: # Replace with a single Community Bridge project-name e.g., cloud-foundry
 liberapay: # Replace with a single Liberapay username
 issuehunt: # Replace with a single IssueHunt username
 otechie: # Replace with a single Otechie username
 lfx_crowdfunding: # Replace with a single LFX Crowdfunding project-name e.g., cloud-foundry
-custom: ['https://checkout.stripe.com/c/pay/cs_live_a1l3DZQtOSFh7YvqkXur6In4Ah94swmUIc0yK4oHZX9IXejK2k8JbU9IS8#fidkdWxOYHwnPyd1blppbHNgWjA0SWZMf25JdVNIal1kSV9UbTJoUVxqN1A0NH13XUhhU19XMT1IT3MzdzNSR2o2dF12cmldUTdNNWBcVGhHRzNLUHdmREcyXHREMUJVZ0JGczRrd2Q0YVBWNTVwcjR%2FRENqbicpJ3VpbGtuQH11anZgYUxhJz8nNDFuMnMzNU09MF81NnRqPXJyJyknd2BjYHd3YHdKd2xibGsnPydtcXF1dj8qKm5kd2s0PStibHFtcGcrbGoqJ3gl']
+custom: ['https://checkout.stripe.com/c/pay/cs_live_a1UEs4bTDSPAmohvLltvv3heJ8iYjhytTa6J1AnCrSeBKiI1mfJfxQPqzi#fidkdWxOYHwnPyd1blppbHNgWjA0SWZMf25JdVNIal1kSV9UbTJoUVxqN1A0NH13XUhhU19XMT1IT3MzdzNSR2o2dF12cmldUTdNNWBcVGhHRzNLUHdmREcyXHREMUJVZ0JGczRrd2Q0YVBWNTVwcjR%2FRENqbicpJ3VpbGtuQH11anZgYUxhJz8nNDFuMnMzNU09MF81NnRqPXJyJyknd2BjYHd3YHdKd2xibGsnPydtcXF1dj8qKmZtYGZuanBxK3Zxd2x1YCtmamgqJ3gl']

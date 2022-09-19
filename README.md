@@ -23,11 +23,21 @@
 
 ด้วยกระแสที่ **Heroku** จะไม่มี Free Plan อีกต่อไป ทำให้ต้องลองมองหา Free Host อื่นๆ มาลอง ซึ่งก่อนหน้านี้ก็ไม่เคยได้ลองใช้มาสักตัว
 
+![Screen Shot 2022-09-19 at 15 19 23](https://user-images.githubusercontent.com/1924433/190976827-8bcde208-e684-4109-b94d-6dec0c99284d.png)
+
+สำหรับ Free Plan ก็เพียงพอให้เรารัน app พร้อม database และยังมี redis อีกด้วย
+
   - Using **Github Action** to deploy application.
+  
+  ![Screen Shot 2022-09-19 at 18 02 08](https://user-images.githubusercontent.com/1924433/191003708-ad904462-ce33-4260-ad34-b41e367519a5.png)
+
+  เวลาที่ใช้ในการ deploy ไปยัง **Fly.io** ก็ประมาณ 3 นาทีกว่า
 
 ## [AWS Cloud Front](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
 
 แม้ว่า **Fly.io** จะโฮสโปรเจ็คไว้ได้ แต่ยังติดเรื่องการ caching assets ดังนั้นจึงต้องพึ่ง **AWS Cloud Front** มาช่วย
+
+![Screen Shot 2022-09-19 at 18 04 44](https://user-images.githubusercontent.com/1924433/191004212-ba257a6e-4fd3-465d-a5d5-73b8898f4cc5.png)
 
 ## [Rubocop](https://rubocop.org/)
 
