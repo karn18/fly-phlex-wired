@@ -3,7 +3,7 @@ class NotesController < ApplicationController
 
   # GET /notes or /notes.json
   def index
-    @notes = Note.all
+    @notes = Note.order(created_at: :desc).actived
   end
 
   # GET /notes/1 or /notes/1.json
@@ -25,6 +25,8 @@ class NotesController < ApplicationController
 
     respond_to do |format|
       if @note.save
+        @notes = Note.actived.order(created_at: :desc).limit(30)
+        format.turbo_stream
         format.html { redirect_to note_url(@note), notice: "Note was successfully created." }
         format.json { render :show, status: :created, location: @note }
       else
@@ -52,6 +54,8 @@ class NotesController < ApplicationController
     @note.destroy
 
     respond_to do |format|
+      @notes = Note.actived.order(created_at: :desc).limit(30)
+      format.turbo_stream
       format.html { redirect_to notes_url, notice: "Note was successfully destroyed." }
       format.json { head :no_content }
     end
@@ -65,6 +69,6 @@ class NotesController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def note_params
-      params.fetch(:note, {})
+      params.fetch(:note, {}).permit(:message, :from_user)
     end
 end

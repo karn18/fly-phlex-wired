@@ -1,0 +1,9 @@
+<%= turbo_stream.replace "note_form" do %>
+  <%= turbo_frame_tag "note_form", class: "w-full md:2/3 lg:w-1/2 mx-auto" do %>
+    <%= render "notes/form", note: Note.new %>
+  <% end %>
+<% end %>
+
+<%= turbo_stream.replace "notes" do %>
+  <%= render NotesComponent.new notes: @notes %>
+<% end %>
