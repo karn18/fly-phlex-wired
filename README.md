@@ -3,7 +3,7 @@
 [![Ruby Style Guide](https://img.shields.io/badge/code_style-rubocop-brightgreen.svg)](https://github.com/rubocop/rubocop)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
 
-โปรเจ็คที่ถูกพัฒนาขึ้นมาเพื่อทดลองอะไรใหม่ๆ ตัวอย่าง 👉 [fly-phlex-wired.fly.dev](https://fly-phlex-wired.fly.dev)
+โปรเจ็คที่ถูกพัฒนาขึ้นมาเพื่อทดลองอะไรใหม่ๆ ตัวอย่าง 👉 [alpha.karn.work](https://alpha.karn.work/)
 
 ## [Phlex - https://www.phlex.fun](https://www.phlex.fun)
 
@@ -32,6 +32,8 @@
   ![Screen Shot 2022-09-19 at 18 02 08](https://user-images.githubusercontent.com/1924433/191003708-ad904462-ce33-4260-ad34-b41e367519a5.png)
 
   เวลาที่ใช้ในการ deploy ไปยัง **Fly.io** ก็ประมาณ 3 นาทีกว่า
+
+  - Add custom domain, redirect `alpha.karn.work` to `fly-phlex-wired.fly.dev`
 
 ## [AWS Cloud Front](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
 

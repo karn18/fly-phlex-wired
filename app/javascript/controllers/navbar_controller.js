@@ -6,7 +6,9 @@ export default class extends Controller {
   }
 
   initialize () {
-    this.element.querySelector(`#${this.burgerIdValue}`).addEventListener('click', this.toggleMenu.bind(this))
+    this.element
+      .querySelector(`#${this.burgerIdValue}`)
+      .addEventListener('click', this.toggleMenu.bind(this))
   }
 
   toggleMenu () {
