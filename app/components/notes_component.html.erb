@@ -5,9 +5,7 @@
     </div>
   <% else %>
     <div class="grid grid-cols-2 gap-4 mx-auto gap-x-3 w-full md:w-2/3 lg:w-2/3">
-      <% @notes.each do |note| %>
-        <%= render note %>
-      <% end %>
+      <%= render NoteComponent.with_collection(@notes) %>
     </div>
   <% end %>
 <% end %>

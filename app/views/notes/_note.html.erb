@@ -1,6 +1,6 @@
 <div id="<%= dom_id note %>" class="mx-auto rounded-lg border p-4 w-full flex flex-col gap-y-2 my-4">
   <div class="flex justify-end">
-    <%= button_to "Close", note_path(note), method: :delete, data: { confirm: 'Are you sure?' }, class: "rounded-full bg-red-400 text-white text-sm px-3 py-2" %>
+    <%= button_to "Close", note_path(note), method: :delete, form: { data: { turbo_confirm: 'Are you sure?' }}, class: "rounded-full bg-red-400 text-white text-sm px-3 py-2" %>
   </div>
   <div class="flex flex-col">
     <h4 class="text-xs font-bold text-gray-400">Message</h4>
