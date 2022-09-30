@@ -4,5 +4,9 @@ class HomeController < ApplicationController
     @note = Note.new
   end
 
-  def toast; end
+  def toast = nil
+
+  def shuffle
+    @qoute = QoutesGenerator.new.random
+  end
 end

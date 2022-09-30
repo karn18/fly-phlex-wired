@@ -17,7 +17,7 @@
 
 ## [Hotwired - https://hotwired.dev/](https://hotwired.dev/)
 
-ผูกผันกันมานานจนแยกไม่ออกซะแล้ว
+ผูกผันกันมานานจนแยกไม่ออกซะแล้ว ตอนนี้ได้อัพเดต Turbo เป็นเวอร์ชัน 7.2.0 ทำให้ตอนนี้เราสามารถใช้ **turbo-stream** กับ GET request ได้แล้ว ลองเข้าไปเล่นได้ที่หน้า [Qoute](https://alpha.karn.work/qoute)
 
 ## [Fly.io - https://fly.io](https://fly.io)
 

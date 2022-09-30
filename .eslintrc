@@ -2,7 +2,12 @@
   "extends": [
     "standard"
   ],
+  "env": {
+    "jest": true
+  },
   "rules": {
-    "space-before-function-paren": "error"
+    "semi": ["error", "never"],
+    "space-before-function-paren": "error",
+    "quotes": "off"
   }
 }
