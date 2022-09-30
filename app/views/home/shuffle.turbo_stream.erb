@@ -1,2 +1,3 @@
 <%= turbo_stream.update "qoute-content", @qoute.content %>
 <%= turbo_stream.update "qoute-originator", @qoute.originator %>
+<%= turbo_stream.dispatch_event "qoute" %>
