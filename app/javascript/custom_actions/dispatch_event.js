@@ -1,4 +1,3 @@
-
 import { StreamActions } from '@hotwired/turbo'
 
 StreamActions.dispatch_event = function () {

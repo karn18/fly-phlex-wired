@@ -2,7 +2,8 @@ import { Controller } from '@hotwired/stimulus'
 
 export default class extends Controller {
   static values = {
-    delay: Number, default: 0
+    delay: Number,
+    default: 0
   }
 
   connect () {

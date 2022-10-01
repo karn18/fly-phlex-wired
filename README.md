@@ -1,5 +1,6 @@
 # FlyPlexWired
-
+[![View performance data on Skylight](https://badges.skylight.io/problem/gV0KDgKZD0KA.svg?token=04VT--MRCQkybdfOrcrX-1f5vXehJyJdRpCwc8fUgnQ)](https://www.skylight.io/app/applications/gV0KDgKZD0KA)
+[![View performance data on Skylight](https://badges.skylight.io/status/gV0KDgKZD0KA.svg?token=04VT--MRCQkybdfOrcrX-1f5vXehJyJdRpCwc8fUgnQ)](https://www.skylight.io/app/applications/gV0KDgKZD0KA)
 [![Ruby Style Guide](https://img.shields.io/badge/code_style-rubocop-brightgreen.svg)](https://github.com/rubocop/rubocop)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
 
