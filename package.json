@@ -15,8 +15,8 @@
   "scripts": {
     "build": "node esbuild.config.js",
     "build:css": "./node_modules/.bin/tailwindcss --postcss -i ./app/assets/stylesheets/application.css -o ./app/assets/builds/application.css",
-    "lint:js": "eslint app/javascript",
-    "format": "prettier-eslint --write \"app/javascript/**/*.{js,jsx}\"",
+    "lint:js": "eslint --cache app/javascript",
+    "format": "eslint --cache --fix app/javascript",
     "test": "jest"
   },
   "devDependencies": {
@@ -32,8 +32,6 @@
     "eslint-plugin-promise": "^6.0.1",
     "global-jsdom": "^8.6.0",
     "jest": "^29.0.3",
-    "jsdom": "^20.0.0",
-    "prettier-eslint": "^15.0.1",
-    "prettier-eslint-cli": "^7.1.0"
+    "jsdom": "^20.0.0"
   }
 }

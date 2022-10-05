@@ -6,6 +6,7 @@
     "jest": true
   },
   "rules": {
+    "max-len": ["error", { "code": 80 }],
     "semi": ["error", "never"],
     "space-before-function-paren": "error",
     "quotes": "off"
