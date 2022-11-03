@@ -138,6 +138,7 @@ GEM
     loofah (2.18.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
+    lz4-ruby (0.3.3)
     mail (2.7.1)
       mini_mime (>= 0.1.1)
     marcel (1.0.2)
@@ -145,6 +146,10 @@ GEM
     method_source (1.0.0)
     mini_mime (1.1.2)
     minitest (5.16.3)
+    motion (0.7.0)
+      lz4-ruby (>= 0.3.3)
+      nokogiri
+      rails (>= 5.2)
     msgpack (1.5.6)
     net-imap (0.2.3)
       digest
@@ -272,6 +277,7 @@ DEPENDENCIES
   http
   jbuilder
   jsbundling-rails
+  motion
   pg (~> 1.4, >= 1.4.2)
   phlex!
   propshaft
@@ -293,4 +299,4 @@ RUBY VERSION
    ruby 3.1.1p18
 
 BUNDLED WITH
-   2.3.22
+   2.3.23

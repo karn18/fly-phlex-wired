@@ -14,7 +14,6 @@ kill_timeout = 5
   release_command = "bin/rails fly:release"
 
 [env]
-  RUBYOPT="--jit"
   PORT = "8080"
   SERVER_COMMAND = "bin/rails fly:server"
 

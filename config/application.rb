@@ -19,6 +19,11 @@ module FlyPhlexWired
     config.time_zone = "Bangkok"
     # config.eager_load_paths << Rails.root.join("extras")
     config.assets.excluded_paths << Rails.root.join("app", "assets", "stylesheets")
-    config.skylight.environments += ["development"]
+    # config.skylight.environments += ["development"]
+
+    config.exceptions_app = ->(env) {
+      puts env
+      ErrorsController.action(:show).call(env)
+    }
   end
 end

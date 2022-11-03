@@ -43,10 +43,15 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "bootsnap", require: false
 gem "http"
 gem "phlex", github: "joeldrapper/phlex"
+gem "motion"
 gem "rookout"
 gem "sidekiq"
-gem "skylight"
 gem "view_component"
+
+# Tracing
+# gem "opentelemetry-sdk"
+# gem "opentelemetry-exporter-otlp"
+# gem "opentelemetry-instrumentation-all"
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"

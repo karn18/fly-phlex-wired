@@ -1749,7 +1749,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rails/actioncable@npm:^7.0":
+"@rails/actioncable@npm:>= 6.0, @rails/actioncable@npm:^7.0":
   version: 7.0.4
   resolution: "@rails/actioncable@npm:7.0.4"
   checksum: b31cae40511a3df4d3048779255219b92f7dd89514f3c9f2da2b219b9b0635261b17b05031c7070756d319bf9165d4d6c021a820b110d53a3e6c441a062accdd
@@ -1984,6 +1984,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@unabridged/motion@npm:^0.7.0":
+  version: 0.7.0
+  resolution: "@unabridged/motion@npm:0.7.0"
+  dependencies:
+    "@rails/actioncable": ">= 6.0"
+    morphdom: ^2.6.1
+  checksum: 968958721f505673762bbf35708d7bb2da990f9722b333503b4f637cbafd2057a6484b95c34bfdfafa4a731b10bfd9f65485c6c56ff6a2724d01e1e940877363
+  languageName: node
+  linkType: hard
+
 "abab@npm:^2.0.6":
   version: 2.0.6
   resolution: "abab@npm:2.0.6"
@@ -2156,6 +2166,7 @@ __metadata:
     "@hotwired/turbo-rails": ^7.2.0
     "@testing-library/dom": ^8.18.1
     "@testing-library/jest-dom": ^5.16.5
+    "@unabridged/motion": ^0.7.0
     autoprefixer: ^10.4.9
     babel-jest: ^29.0.3
     esbuild: ^0.15.7
@@ -5394,6 +5405,13 @@ __metadata:
   bin:
     mkdirp: bin/cmd.js
   checksum: a96865108c6c3b1b8e1d5e9f11843de1e077e57737602de1b82030815f311be11f96f09cce59bd5b903d0b29834733e5313f9301e3ed6d6f6fba2eae0df4298f
+  languageName: node
+  linkType: hard
+
+"morphdom@npm:^2.6.1":
+  version: 2.6.1
+  resolution: "morphdom@npm:2.6.1"
+  checksum: 8930281b27df2c918a168872a650931d92ac728b9177ed6d74779acf40a4bf6a1c62482a267496a1007f9658d0c6a4125e7080ec1194c6b937ff55f903235ad0
   languageName: node
   linkType: hard
 
